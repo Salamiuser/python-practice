@@ -1,6 +1,7 @@
 from tqdm import tqdm
 
 
+
 def numberOfWays(startPos: int, endPos: int, k: int) -> int:
     """
     Solving Leetcode Problem.
