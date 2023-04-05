@@ -1,0 +1,7 @@
+name: cs1972ec2
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - tqdm
+prefix: /Users/haraldschul/opt/anaconda3/envs/cs1972ec2
