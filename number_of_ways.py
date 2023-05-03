@@ -30,7 +30,7 @@ def numberOfWays(startPos: int, endPos: int, k: int) -> int:
             # path that goes to the left
             new_path_left = new_path + [last_position - 1]
 
-            # path that goes to the right
+            # path that goes to the righ
             new_path_right = new_path + [last_position + 1]
 
             # add paths to the left and right
@@ -40,7 +40,7 @@ def numberOfWays(startPos: int, endPos: int, k: int) -> int:
     num_ways = 0
     for path in paths:
         if path[-1] == endPos:
-            new_ways += 1
+            num_ways += 1
     return num_ways
 
 
